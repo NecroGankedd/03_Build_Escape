@@ -7,3 +7,5 @@
 */Intermediate/
 */Saved
 BuildingEscape/Content/StarterContent/
+*.vc.db
+*.vc.opendb
