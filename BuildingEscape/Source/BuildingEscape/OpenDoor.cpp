@@ -3,7 +3,7 @@
 #include "OpenDoor.h"
 #include "Gameframework/Actor.h"
 #include "Engine/World.h"
-#include "Runtime/Engine/Classes/GameFramework/PlayerController.h"
+#include "GameFramework/PlayerController.h"
 
 
 // Sets default values for this component's properties
