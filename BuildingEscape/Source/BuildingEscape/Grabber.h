@@ -28,7 +28,7 @@ public:
 
 private:
 	// How far can we reach in CM?
-	float Reach = 100.f;
+	float Reach = 120.f;
 
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 	UInputComponent* InputComponent = nullptr;
@@ -36,9 +36,14 @@ private:
 	// Ray-cast, grab/rlease what's in reach.
 	void Grab();
 	void Release();
-
+	
 	void FindPhysicsHandleComponent();
 	void SetupInputComponent();
+
+	// Return LineTraceEnd for PlayerReach
+	FVector GetPlayerReachEnd() const;
+
+	FVector GetPlayerReachStart() const;
 
 	// Return hit for first physics body in reach.
 	FHitResult GetFirstPhysicsBodyInReach() const;
