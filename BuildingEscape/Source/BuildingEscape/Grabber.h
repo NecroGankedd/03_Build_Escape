@@ -28,7 +28,7 @@ public:
 
 private:
 	// How far can we reach in CM?
-	float Reach = 120.f;
+	float Reach = 130.f;
 
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 	UInputComponent* InputComponent = nullptr;
